@@ -1,7 +1,5 @@
-const greeting = function (name) {
-  console.log(`Hello, ${name}!`);
-};
-greeting("Hamad");
+const printName = (name) => `Hello, ${name}!`;
+console.log(greeting("Hamad"));
 
 const performMath = (operation, firstNum, secondNum) =>
   operation(firstNum, secondNum);
